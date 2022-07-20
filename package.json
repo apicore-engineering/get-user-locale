@@ -14,7 +14,6 @@
     "clean": "rimraf dist",
     "jest": "jest",
     "lint": "eslint src/ --ext .jsx,.js",
-    "postinstall": "husky install",
     "prepack": "yarn clean && yarn build",
     "test": "yarn lint && yarn jest"
   },
